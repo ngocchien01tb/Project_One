@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     private bool _isWalking;
     private bool _isGrounded;
     private bool _canJump;
+
     private float _movementInputDirection;
     private int _amountOfJumpLeft;
 
@@ -137,4 +138,6 @@ public class PlayerController : MonoBehaviour
     {
         Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
     }
+
+    
 }
